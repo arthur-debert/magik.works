@@ -1,0 +1,38 @@
+---
+---
+
+/* 
+  Custom styles for Magik Works
+  This file overrides styles from main.scss
+*/
+
+/* Add Karla font to the root variables */
+:root {
+  /* Example of overriding the default colors */
+  /*
+  --color-primary: #6200ee;
+  --color-text: #121212;
+  --color-text-light: #595959;
+  --color-background: #fafafa;
+  --color-border: #e0e0e0;
+  */
+  --font-karla: 'Karla', sans-serif;
+  --font-opens: 'Open Sans', sans-serif;
+  --font-big: "Poppins", sans-serif;
+}
+
+/* Custom typography using Karla */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-karla);
+  font-weight: 700;
+}
+
+/* Fix your existing big class */
+.big {
+  font-size: 2.2rem;
+  font-weight: 800;
+  font-family: var(--font-big);
+  text-transform: lowercase;
+}
+
+/* Add any other custom styles below */

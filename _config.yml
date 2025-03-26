@@ -1,0 +1,22 @@
+title: Magik Works
+description: My personal website
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - blog.md
+  - _layouts/post.html
+  - _posts
+
+# Theme settings
+sass:
+  style: compressed
+  sass_dir: _sass

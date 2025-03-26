@@ -1,0 +1,9 @@
+#! /usr/bin/env bash
+
+# check if jekyll is installed, else direct user to the ./setup script
+if ! command -v jekyll &>/dev/null; then
+    echo "Jekyll is not installed. Please run the ./setup script to install it."
+    exit 1
+fi
+echo "Available at http://localhost:4000"
+bundle exec jekyll serve --livereload

@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+# Setups local development environment
+# Requires: Ruby, Bundler, Homebrew
+# brew bundle
+cd "${PROJECT_ROOT}" && brew bundle && bundle install
