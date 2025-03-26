@@ -57,4 +57,14 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: lowercase;
 }
 
+/* Vertically center the main content on the home page */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 160px); /* Subtract header and footer height */
+  text-align: center;
+}
+
 /* Add any other custom styles below */

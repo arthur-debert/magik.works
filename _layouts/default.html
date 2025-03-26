@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 </head>
-<body>
+<body class="{{ page.layout }} {{ page.title | downcase }}-page">
   <header>
     <div class="container">
       <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
