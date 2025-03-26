@@ -6,19 +6,41 @@
   This file overrides styles from main.scss
 */
 
-/* Add Karla font to the root variables */
+/* Light mode (default) theme variables */
 :root {
-  /* Example of overriding the default colors */
-  /*
-  --color-primary: #6200ee;
-  --color-text: #121212;
-  --color-text-light: #595959;
-  --color-background: #fafafa;
-  --color-border: #e0e0e0;
-  */
+  --color-primary: #0077cc;
+  --color-text: #333;
+  --color-text-light: #767676;
+  --color-background: #fff;
+  --color-border: #eaeaea;
   --font-karla: 'Karla', sans-serif;
   --font-opens: 'Open Sans', sans-serif;
   --font-big: "Poppins", sans-serif;
+}
+
+/* Dark mode theme variables - activated when user prefers dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #6ab0ff;
+    --color-text: #f0f0f0;
+    --color-text-light: #aaaaaa;
+    --color-background: #121212;
+    --color-border: #333333;
+  }
+  
+  /* Add styles that need special attention in dark mode */
+  pre, code {
+    background-color: #2a2a2a;
+  }
+  
+  a {
+    color: var(--color-primary);
+  }
+  
+  /* Ensure header and footer work well with dark theme */
+  header, footer {
+    border-color: var(--color-border);
+  }
 }
 
 /* Custom typography using Karla */
