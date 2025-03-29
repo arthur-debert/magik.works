@@ -1,59 +1,39 @@
-# Magik Works Personal Website
+# Multi-Domain GitHub Pages Repository
 
-This is my personal website built with Jekyll and hosted on GitHub Pages.
+This repository hosts multiple websites served from different domains:
 
-## Development
+- [magik.works](https://magik.works) - Main Magik Works website
+- [debert.xyz](https://debert.xyz) - Arthur Debert's personal website
+- [txxt.is](https://txxt.is) - Text and writing projects
 
-### Prerequisites
+## Structure
 
-- Ruby (version 2.5.0 or higher)
-- Bundler
+Each domain has its own directory in the repository:
 
-You can install dependencies using Homebrew:
+- `/magik.works/` - Content for magik.works
+- `/debert.xyz/` - Content for debert.xyz
+- `/txxt.is/` - Content for txxt.is
+
+## DNS Configuration
+
+For each domain to work properly with GitHub Pages:
+
+1. Add the custom domain in GitHub Pages settings
+2. Configure your DNS provider with the following records:
+   - A Records pointing to GitHub Pages IP addresses:
+     - 185.199.108.153
+     - 185.199.109.153
+     - 185.199.110.153
+     - 185.199.111.153
+   - CNAME record with name `www` pointing to `<username>.github.io`
+
+## Local Development
+
+To test locally:
 
 ```bash
-# Install dependencies from Brewfile
-brew bundle
-```
-
-### Setup
-
-```bash
-# Install dependencies
-bundle install
-
-# Start the development server
+cd <domain-directory>
 bundle exec jekyll serve
 ```
 
-The site will be [available at](http://localhost:4000)
-
-### Adding Content
-
-- Add or modify pages directly in the root directory with the appropriate
-  frontmatter
-
-## Deployment
-
-The site is automatically built and deployed when changes are pushed to the main
-branch.
-
-### How GitHub Pages Works
-
-GitHub Pages automatically generates HTML from your Jekyll site when you push to
-your repository:
-
-1. Push your changes to the main branch of your repository
-2. GitHub automatically runs Jekyll to build your site
-3. The generated HTML is served at your GitHub Pages URL
-   (username.github.io/repository-name)
-
-You don't need to generate the HTML yourself or commit any built files. GitHub
-Pages handles the build process entirely on their servers.
-
-### Important Note
-
-When using GitHub Pages, make sure you're using compatible plugins and themes.
-Not all Jekyll plugins are supported by GitHub Pages. See the
-[GitHub Pages documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins)
-for more details.
+This will serve the specific domain's content on http://localhost:4000
