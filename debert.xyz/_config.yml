@@ -1,0 +1,17 @@
+title: Arthur Debert
+description: Personal website of Arthur Debert
+baseurl: "/debert.xyz" # the subpath of your site
+url: "https://debert.xyz" # the base hostname & protocol for your site
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+# Theme settings
+sass:
+  style: compressed
+  sass_dir: _sass
