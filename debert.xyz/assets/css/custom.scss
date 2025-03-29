@@ -22,7 +22,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-primary: #6ab0ff;
-    --color-text: #f0f0f0;
+    --color-text: #d4d4d4;
     --color-text-light: #aaaaaa;
     --color-background: #121212;
     --color-border: #333333;
@@ -50,9 +50,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Fix your existing big class */
+
 .big {
-  font-size: 2.2rem;
-  font-weight: 800;
+
+  font-size: 1.5rem;
+  font-weight: 400;
   font-family: var(--font-big);
   text-transform: lowercase;
 }
@@ -62,9 +64,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   min-height: calc(100vh - 160px); /* Subtract header and footer height */
-  text-align: center;
+  text-align: left;
 }
 
 /* Add any other custom styles below */

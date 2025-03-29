@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: big
 title: Home
 ---
 
-<div class="home-container big">
-  <p>hi this is the home page for the debert family, for some of them at least</p>
-  <p>there's <a href="arthur">arthur</a> and <a href="theo">theo</a>. but that's it.</p>
-</div>
+hi this is the home page for the debert family, for some of them at least
+
+there's [arthur](arthur) and [theo](theo). but that's it.

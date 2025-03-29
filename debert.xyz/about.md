@@ -1,18 +1,14 @@
 ---
-layout: default
+layout: big
 title: About
 permalink: /about/
 ---
 
-# About Arthur Debert
+## About Arthur Debert
 
-I'm a software developer and designer with a passion for creating elegant
-solutions to complex problems.
+I'm arthur, a Brazilian born in the 70s , whose done a bunch of different
+things.
 
-## Experience
-
-- Software development
-- Web design
-- Technical leadership
-
-[GitHub](https://github.com/arthur-debert) | [LinkedIn](#)
+[GitHub](https://github.com/arthur-debert) |
+[astrobin](https://www.astrobin.com/users/adebert/) |
+[linked-in](https://www.linkedin.com/in/arthurdebert/)

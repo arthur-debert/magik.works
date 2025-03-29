@@ -1,5 +1,5 @@
-title: Arthur Debert
-description: Personal website of Arthur Debert
+title: debert
+description: some deberts, not all
 baseurl: "/debert.xyz" # the subpath of your site
 url: "https://debert.xyz" # the base hostname & protocol for your site
 # Build settings
