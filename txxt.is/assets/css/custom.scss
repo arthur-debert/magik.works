@@ -30,7 +30,8 @@
   
   /* Add styles that need special attention in dark mode */
   pre, code {
-    background-color: #2a2a2a;
+    background-color: none;
+    font-family: var(--font-opens)
   }
   
   a {
