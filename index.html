@@ -3,29 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domain Router</title>
-    <script>
-        // Simple domain-based router
-        (function() {
-            var hostname = window.location.hostname;
-            var path = '';
-            
-            if (hostname === 'magik.works') {
-                path = '/magik.works/';
-            } else if (hostname === 'debert.xyz') {
-                path = '/debert.xyz/';
-            } else if (hostname === 'txxt.is') {
-                path = '/txxt.is/';
-            } else {
-                // Default to magik.works if no match
-                path = '/magik.works/';
-            }
-            
-            window.location.href = path;
-        })();
-    </script>
+    <title>Magik Works</title>
+    <meta http-equiv="refresh" content="0;url=/magik.works/">
 </head>
 <body>
-    <p>Redirecting to the appropriate domain...</p>
+    <p>Redirecting to <a href="/magik.works/">Magik Works</a>...</p>
 </body>
 </html>

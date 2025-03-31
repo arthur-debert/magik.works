@@ -1,22 +1,14 @@
-# Multi-Domain GitHub Pages Repository
+# magik.works
 
-This repository hosts multiple websites served from different domains:
-
-- [magik.works](https://magik.works) - Main Magik Works website
-- [debert.xyz](https://debert.xyz) - Arthur Debert's personal website
-- [txxt.is](https://txxt.is) - Text and writing projects
+Main Magik Works website, hosted on GitHub Pages.
 
 ## Structure
 
-Each domain has its own directory in the repository:
-
-- `/magik.works/` - Content for magik.works
-- `/debert.xyz/` - Content for debert.xyz
-- `/txxt.is/` - Content for txxt.is
+This repository contains the content for the [magik.works](https://magik.works) website.
 
 ## DNS Configuration
 
-For each domain to work properly with GitHub Pages:
+For the domain to work properly with GitHub Pages:
 
 1. Add the custom domain in GitHub Pages settings
 2. Configure your DNS provider with the following records:
@@ -32,8 +24,7 @@ For each domain to work properly with GitHub Pages:
 To test locally:
 
 ```bash
-cd <domain-directory>
 bundle exec jekyll serve
 ```
 
-This will serve the specific domain's content on http://localhost:4000
+This will serve the website on [http://localhost:4000](http://localhost:4000)

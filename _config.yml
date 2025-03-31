@@ -1,7 +1,7 @@
-title: Multi-domain GitHub Pages
-description: A multi-domain GitHub Pages repository
+title: Magik Works
+description: Small software for big ideas
 baseurl: "" # the subpath of your site
-url: "https://magik.works" # the default hostname
+url: "https://magik.works" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -20,15 +20,3 @@ exclude:
 sass:
   style: compressed
   sass_dir: _sass
-
-# Domain-specific configurations
-domains:
-  - name: magik.works
-    domain: magik.works
-    directory: magik.works
-  - name: debert.xyz
-    domain: debert.xyz
-    directory: debert.xyz
-  - name: txxt.is
-    domain: txxt.is
-    directory: txxt.is

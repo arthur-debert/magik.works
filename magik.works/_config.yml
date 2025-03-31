@@ -1,6 +1,6 @@
 title: Magik Works
 description: Small software for big ideas
-baseurl: "/magik.works" # the subpath of your site
+baseurl: "" # the subpath of your site
 url: "https://magik.works" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
