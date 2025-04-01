@@ -4,7 +4,8 @@ Main Magik Works website, hosted on GitHub Pages.
 
 ## Structure
 
-This repository contains the content for the [magik.works](https://magik.works) website.
+This repository contains the content for the [magik.works](https://magik.works)
+website.
 
 ## DNS Configuration
 
